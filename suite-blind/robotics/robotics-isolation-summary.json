@@ -1,0 +1,101 @@
+{
+  "config": {
+    "task": "robotics",
+    "corpusHash": "3cf18898894ba88addb385500538d1784e5c9127846cfaa5a8963c8de2adf0e9",
+    "queryHash": "d692c26f8169265d4c7e3fa7759ba1a69d0a7bb47ee40c3562af3828753f3e59",
+    "replayHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "batch": 10,
+    "offline": false,
+    "blind": true,
+    "model": "jev-latest",
+    "base": "https://api.typesafe.ai/v1/systemone",
+    "audit": false,
+    "version": "0.4.1"
+  },
+  "queries": 101,
+  "arms": {
+    "bm25_100": {
+      "meanCandidates": 100,
+      "recall": 0.35516860347961093,
+      "oracle": 0.4125996617204937,
+      "addedGold": 0,
+      "rescued": 0,
+      "empty": 46,
+      "fallback": 0,
+      "ndcg10": 0.2558031890685905,
+      "recall100": 0.35516860347961093,
+      "mrr100": 0.34334423524254754
+    },
+    "bm25_200": {
+      "meanCandidates": 200,
+      "recall": 0.4371061368149313,
+      "oracle": 0.5023378245298534,
+      "addedGold": 45,
+      "rescued": 8,
+      "empty": 38,
+      "fallback": 0,
+      "ndcg10": 0.27411953221891383,
+      "recall100": 0.43116554275552527,
+      "mrr100": 0.35638048345059653
+    },
+    "lexical": {
+      "meanCandidates": 200,
+      "recall": 0.5422584286008864,
+      "oracle": 0.6127080686323633,
+      "addedGold": 80,
+      "rescued": 19,
+      "empty": 27,
+      "fallback": 0,
+      "ndcg10": 0.3199297436998389,
+      "recall100": 0.5283903751288725,
+      "mrr100": 0.3901901897251842
+    },
+    "capability": {
+      "meanCandidates": 200,
+      "recall": 0.37164025064432743,
+      "oracle": 0.4298458110589785,
+      "addedGold": 6,
+      "rescued": 1,
+      "empty": 45,
+      "fallback": 0,
+      "ndcg10": 0.2625920298176973,
+      "recall100": 0.37164025064432743,
+      "mrr100": 0.3423982608537184
+    },
+    "both": {
+      "meanCandidates": 200,
+      "recall": 0.4428304368898427,
+      "oracle": 0.5062112503781103,
+      "addedGold": 32,
+      "rescued": 8,
+      "empty": 38,
+      "fallback": 0,
+      "ndcg10": 0.2909253074612012,
+      "recall100": 0.4428304368898427,
+      "mrr100": 0.35595960901690893
+    },
+    "allocation_90_10": {
+      "meanCandidates": 200,
+      "recall": 0.5351810541967793,
+      "oracle": 0.6081365416628755,
+      "addedGold": 75,
+      "rescued": 19,
+      "empty": 27,
+      "fallback": 0,
+      "ndcg10": 0.32128133051420343,
+      "recall100": 0.5236599020815678,
+      "mrr100": 0.39110805393180503
+    }
+  },
+  "unique": {
+    "lexicalOnly": 81,
+    "capabilityOnly": 13,
+    "shared": 2,
+    "lexicalRescue": 17,
+    "capabilityRescue": 1
+  },
+  "posts": 3754,
+  "questions": 41152,
+  "meanMs": 4086.097374257427,
+  "meanUnion": 357.44554455445547
+}

@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {aggregate} from './suite.js';import {ARMS} from './isolate.js';
+test('macro average weights datasets equally and excludes pending',()=>{const s=(n,v)=>({queries:n,posts:2,questions:3,arms:Object.fromEntries(ARMS.map(a=>[a,Object.fromEntries(['ndcg10','oracle','recall','recall100','mrr100'].map(k=>[k,v]))]))});const r=aggregate([{task:'a',status:'complete',summary:s(10,.2)},{task:'b',status:'complete',summary:s(100,.6)},{task:'c',status:'pending'}]);assert.equal(r.macro.lexical.ndcg10,.4);assert.equal(r.queries,110);assert.equal(r.complete,false);assert.equal(r.completed,2);});
+test('empty suite has null macros',()=>assert.equal(aggregate([{task:'a',status:'pending'}]).macro.lexical,null));

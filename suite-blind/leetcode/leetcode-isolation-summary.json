@@ -1,0 +1,101 @@
+{
+  "config": {
+    "task": "leetcode",
+    "corpusHash": "36e5c4da251a0010d2694e917ef4b709b7da2833c03f9c03e00c6e608485e304",
+    "queryHash": "c5eac3c5a66f6c154d8596e334c231a8efa991a8ba0183816c73b54741ec067b",
+    "replayHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "batch": 10,
+    "offline": false,
+    "blind": true,
+    "model": "jev-latest",
+    "base": "https://api.typesafe.ai/v1/systemone",
+    "audit": false,
+    "version": "0.4.1"
+  },
+  "queries": 142,
+  "arms": {
+    "bm25_100": {
+      "meanCandidates": 100,
+      "recall": 0.5379107981220658,
+      "oracle": 0.5671714580149227,
+      "addedGold": 0,
+      "rescued": 0,
+      "empty": 48,
+      "fallback": 0,
+      "ndcg10": 0.35799965844053877,
+      "recall100": 0.5379107981220658,
+      "mrr100": 0.39498988882791697
+    },
+    "bm25_200": {
+      "meanCandidates": 200,
+      "recall": 0.6561032863849766,
+      "oracle": 0.6872143643857386,
+      "addedGold": 27,
+      "rescued": 17,
+      "empty": 31,
+      "fallback": 0,
+      "ndcg10": 0.3684766411037938,
+      "recall100": 0.6431924882629109,
+      "mrr100": 0.38679654297080085
+    },
+    "lexical": {
+      "meanCandidates": 200,
+      "recall": 0.6423708920187795,
+      "oracle": 0.6729726497202735,
+      "addedGold": 21,
+      "rescued": 15,
+      "empty": 33,
+      "fallback": 0,
+      "ndcg10": 0.3563151097027261,
+      "recall100": 0.6318075117370893,
+      "mrr100": 0.3723579121411325
+    },
+    "capability": {
+      "meanCandidates": 200,
+      "recall": 0.5379107981220658,
+      "oracle": 0.5671714580149227,
+      "addedGold": 0,
+      "rescued": 0,
+      "empty": 48,
+      "fallback": 0,
+      "ndcg10": 0.34370609166818195,
+      "recall100": 0.5379107981220658,
+      "mrr100": 0.3757006202460691
+    },
+    "both": {
+      "meanCandidates": 200,
+      "recall": 0.5590375586854461,
+      "oracle": 0.5898918410116193,
+      "addedGold": 4,
+      "rescued": 4,
+      "empty": 44,
+      "fallback": 0,
+      "ndcg10": 0.34940984251375506,
+      "recall100": 0.5590375586854461,
+      "mrr100": 0.3817581686608346
+    },
+    "allocation_90_10": {
+      "meanCandidates": 200,
+      "recall": 0.6423708920187795,
+      "oracle": 0.6729726497202735,
+      "addedGold": 21,
+      "rescued": 15,
+      "empty": 33,
+      "fallback": 0,
+      "ndcg10": 0.35361723362647834,
+      "recall100": 0.6318075117370893,
+      "mrr100": 0.36896720855344906
+    }
+  },
+  "unique": {
+    "lexicalOnly": 21,
+    "capabilityOnly": 0,
+    "shared": 0,
+    "lexicalRescue": 15,
+    "capabilityRescue": 0
+  },
+  "posts": 4891,
+  "questions": 53909,
+  "meanMs": 8750.350084507047,
+  "meanUnion": 329.64084507042253
+}

@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    "biology",
+    "earth_science",
+    "economics",
+    "pony",
+    "psychology",
+    "robotics",
+    "stackoverflow",
+    "sustainable_living",
+    "aops",
+    "leetcode",
+    "theoremqa_theorems",
+    "theoremqa_questions"
+  ],
+  "cache": "C:\\Users\\jjtur\\Downloads\\ilk-bright-v0.4.2\\ilk-bright\\data",
+  "batch": 10,
+  "revision": "main",
+  "blind": true,
+  "audit": false,
+  "model": "jev-latest",
+  "base": "https://api.typesafe.ai/v1/systemone",
+  "version": "0.4.1"
+}

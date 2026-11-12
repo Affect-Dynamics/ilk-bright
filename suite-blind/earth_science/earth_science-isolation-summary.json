@@ -1,0 +1,101 @@
+{
+  "config": {
+    "task": "earth_science",
+    "corpusHash": "e97936c85c0a89a525e3a02d02d09263c904d68b8915e827f8a7db7cdd6137cb",
+    "queryHash": "e5c6bf231419bdcd163ccd065dc1dae3e8b49987f7ed1cec263e2cac05be6dd5",
+    "replayHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "batch": 10,
+    "offline": false,
+    "blind": true,
+    "model": "jev-latest",
+    "base": "https://api.typesafe.ai/v1/systemone",
+    "audit": false,
+    "version": "0.4.1"
+  },
+  "queries": 116,
+  "arms": {
+    "bm25_100": {
+      "meanCandidates": 100,
+      "recall": 0.4227099635845099,
+      "oracle": 0.5056681991456448,
+      "addedGold": 0,
+      "rescued": 0,
+      "empty": 31,
+      "fallback": 0,
+      "ndcg10": 0.3500837014697604,
+      "recall100": 0.4227099635845099,
+      "mrr100": 0.5211130453742119
+    },
+    "bm25_200": {
+      "meanCandidates": 200,
+      "recall": 0.5288055398422912,
+      "oracle": 0.6067465557596899,
+      "addedGold": 55,
+      "rescued": 8,
+      "empty": 23,
+      "fallback": 0,
+      "ndcg10": 0.3987400029593554,
+      "recall100": 0.5252135858193027,
+      "mrr100": 0.5370286160458936
+    },
+    "lexical": {
+      "meanCandidates": 200,
+      "recall": 0.5908766823013648,
+      "oracle": 0.6656824680830518,
+      "addedGold": 90,
+      "rescued": 13,
+      "empty": 18,
+      "fallback": 0,
+      "ndcg10": 0.42283359861122116,
+      "recall100": 0.5847190468333845,
+      "mrr100": 0.5539473746295982
+    },
+    "capability": {
+      "meanCandidates": 200,
+      "recall": 0.4287307627087574,
+      "oracle": 0.5132701035115664,
+      "addedGold": 3,
+      "rescued": 2,
+      "empty": 29,
+      "fallback": 0,
+      "ndcg10": 0.3484352411572981,
+      "recall100": 0.4287307627087574,
+      "mrr100": 0.5252914673509523
+    },
+    "both": {
+      "meanCandidates": 200,
+      "recall": 0.5181957637039307,
+      "oracle": 0.6052616232498198,
+      "addedGold": 49,
+      "rescued": 12,
+      "empty": 19,
+      "fallback": 0,
+      "ndcg10": 0.40323442571172613,
+      "recall100": 0.5181957637039307,
+      "mrr100": 0.5700955365334655
+    },
+    "allocation_90_10": {
+      "meanCandidates": 200,
+      "recall": 0.5858684721207408,
+      "oracle": 0.6618353664155378,
+      "addedGold": 86,
+      "rescued": 13,
+      "empty": 18,
+      "fallback": 0,
+      "ndcg10": 0.42373793741251814,
+      "recall100": 0.5797108366527605,
+      "mrr100": 0.5540382561128598
+    }
+  },
+  "unique": {
+    "lexicalOnly": 89,
+    "capabilityOnly": 5,
+    "shared": 1,
+    "lexicalRescue": 12,
+    "capabilityRescue": 1
+  },
+  "posts": 3984,
+  "questions": 43928,
+  "meanMs": 3363.865303448278,
+  "meanUnion": 328.6896551724138
+}
