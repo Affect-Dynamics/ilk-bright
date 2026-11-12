@@ -1,0 +1,170 @@
+[
+  {
+    "task": "biology",
+    "arm": "lexical",
+    "official": 31.996999999999996,
+    "local": 31.99662347695305,
+    "delta": 0.000376523046945465
+  },
+  {
+    "task": "biology",
+    "arm": "allocation_90_10",
+    "official": 32.409,
+    "local": 32.40860115721074,
+    "delta": 0.00039884278925939043
+  },
+  {
+    "task": "earth_science",
+    "arm": "lexical",
+    "official": 42.283,
+    "local": 42.283359861122115,
+    "delta": -0.0003598611221136139
+  },
+  {
+    "task": "earth_science",
+    "arm": "allocation_90_10",
+    "official": 42.374,
+    "local": 42.373793741251816,
+    "delta": 0.00020625874818591683
+  },
+  {
+    "task": "economics",
+    "arm": "lexical",
+    "official": 31.163999999999998,
+    "local": 31.163977415836264,
+    "delta": 2.258416373379646e-05
+  },
+  {
+    "task": "economics",
+    "arm": "allocation_90_10",
+    "official": 32.066,
+    "local": 32.0655532026579,
+    "delta": 0.00044679734210006927
+  },
+  {
+    "task": "pony",
+    "arm": "lexical",
+    "official": 24.325,
+    "local": 24.325015411570448,
+    "delta": -1.541157044826491e-05
+  },
+  {
+    "task": "pony",
+    "arm": "allocation_90_10",
+    "official": 22.317999999999998,
+    "local": 22.318483788018835,
+    "delta": -0.0004837880188368615
+  },
+  {
+    "task": "psychology",
+    "arm": "lexical",
+    "official": 30.209000000000003,
+    "local": 30.209298129084587,
+    "delta": -0.00029812908458382026
+  },
+  {
+    "task": "psychology",
+    "arm": "allocation_90_10",
+    "official": 30.575000000000003,
+    "local": 30.57454733037728,
+    "delta": 0.00045266962272449973
+  },
+  {
+    "task": "robotics",
+    "arm": "lexical",
+    "official": 31.993,
+    "local": 31.99297436998389,
+    "delta": 2.5630016107669462e-05
+  },
+  {
+    "task": "robotics",
+    "arm": "allocation_90_10",
+    "official": 32.128,
+    "local": 32.12813305142034,
+    "delta": -0.00013305142034170103
+  },
+  {
+    "task": "stackoverflow",
+    "arm": "lexical",
+    "official": 34.096,
+    "local": 34.09589018440355,
+    "delta": 0.00010981559644562822
+  },
+  {
+    "task": "stackoverflow",
+    "arm": "allocation_90_10",
+    "official": 34.075,
+    "local": 34.07519558733028,
+    "delta": -0.00019558733027480457
+  },
+  {
+    "task": "sustainable_living",
+    "arm": "lexical",
+    "official": 35.038000000000004,
+    "local": 35.03757870607952,
+    "delta": 0.0004212939204819577
+  },
+  {
+    "task": "sustainable_living",
+    "arm": "allocation_90_10",
+    "official": 34.910000000000004,
+    "local": 34.909600985481596,
+    "delta": 0.0003990145184076255
+  },
+  {
+    "task": "aops",
+    "arm": "lexical",
+    "official": 7.9030000000000005,
+    "local": 7.903336979466586,
+    "delta": -0.00033697946658595157
+  },
+  {
+    "task": "aops",
+    "arm": "allocation_90_10",
+    "official": 8.001999999999999,
+    "local": 8.0023135466895,
+    "delta": -0.0003135466895010097
+  },
+  {
+    "task": "leetcode",
+    "arm": "lexical",
+    "official": 35.632000000000005,
+    "local": 35.631510970272615,
+    "delta": 0.0004890297273902888
+  },
+  {
+    "task": "leetcode",
+    "arm": "allocation_90_10",
+    "official": 35.362,
+    "local": 35.36172336264784,
+    "delta": 0.0002766373521652099
+  },
+  {
+    "task": "theoremqa_theorems",
+    "arm": "lexical",
+    "official": 21.166,
+    "local": 21.16568557034802,
+    "delta": 0.0003144296519792533
+  },
+  {
+    "task": "theoremqa_theorems",
+    "arm": "allocation_90_10",
+    "official": 20.657,
+    "local": 20.656668718723626,
+    "delta": 0.0003312812763738293
+  },
+  {
+    "task": "theoremqa_questions",
+    "arm": "lexical",
+    "official": 22.063,
+    "local": 22.062725184530485,
+    "delta": 0.00027481546951335645
+  },
+  {
+    "task": "theoremqa_questions",
+    "arm": "allocation_90_10",
+    "official": 21.972,
+    "local": 21.972030971969648,
+    "delta": -3.0971969646742536e-05
+  }
+]

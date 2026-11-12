@@ -33,8 +33,10 @@ isolation-*/
 *-audit.json
 *-audit.jsonl
 score.json
-official-scores/
-/official-comparison.json
+# Preserve validated BRIGHT submission rankings
+!official-scores/
+!official-scores/**/
+!official-scores/**/score.json
 
 # Official evaluator dependencies
 BRIGHT/
