@@ -1,13 +1,11 @@
-# Dependencies
+# Dependencies and credentials
 node_modules/
-
-# Environment variables and API keys
 .env
 .env.*
 !.env.example
 secrets.json
 
-# Downloaded BRIGHT datasets
+# Downloaded datasets
 data/
 cache/
 .cache/
@@ -16,32 +14,27 @@ cache/
 *.parquet.part
 
 # Generated benchmark runs
-# Ignore benchmark outputs by default
 suite-*/
-
-# Preserve the validated benchmark summaries
 !suite-blind/
 suite-blind/*
-
 !suite-blind/suite-config.json
 !suite-blind/suite-summary.json
-
-# Allow dataset directories
+!suite-blind/official-comparison.json
 !suite-blind/*/
 suite-blind/*/*
-
-# Preserve individual dataset summaries
 !suite-blind/*/*-isolation-summary.json
 isolation-*/
 *-pilot/
 *-heldout/
 
-# Large generated benchmark artifacts
+# Large generated outputs
 *-report.json
 *-isolation-report.json
 *-audit.json
 *-audit.jsonl
 score.json
+official-scores/
+/official-comparison.json
 
 # Official evaluator dependencies
 BRIGHT/
@@ -54,8 +47,6 @@ __pycache__/
 *.log
 *.tmp
 *.part
-
-# OS and editor files
 .DS_Store
 Thumbs.db
 .vscode/
